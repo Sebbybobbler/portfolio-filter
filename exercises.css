@@ -1,0 +1,70 @@
+.planet {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .planet-name {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .planet-circumference,
+  .planet-distance {
+    font-style: italic;
+  }
+  
+  .planet-Earth {
+    background: green;
+  }
+  
+  .planet-Mars {
+    background: red;
+  }
+  
+  .planet-Mercury{
+    background-color: crimson;
+  }
+
+  .planet-Venus{
+    background-color:chocolate;
+  }
+
+  .planet-Jupiter{
+    background-color:brown;
+  }
+
+  .planet-Saturn{
+    background-color: darkgoldenrod;
+  }
+
+  .planet-Uranus{
+    background-color:aqua ;
+  }
+
+  .planet-Neptune{
+    background-color: blue;
+  }
+
+  .planet-Neptune p{
+    color:white;
+  }
+  .search {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .hide {
+    display: none;
+  }
